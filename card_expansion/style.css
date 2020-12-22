@@ -47,8 +47,10 @@ body {
 .panel.active h3 {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
+  /* helps to provide a smooth transition for the user */
 }
 
+/* here we are making code responsive for smaller screens */
 @media (max-width: 480px) {
   .container {
     width: 100vw;
