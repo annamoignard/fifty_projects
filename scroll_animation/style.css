@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #efedd6;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+h1 {
+  margin: 10px; 
+
+}
+
+.box {
+  background-color: steelblue;
+  color: #fff; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  width: 400px; 
+  height: 200px; 
+  margin: 10px; 
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+ /* moves content way off the screen to the right until we add JS when the content boxes will come in to view */
+  transform: translateX(200%); 
+  transition: transform 0.4s ease; 
+  /* this will add a smooth transition for when the content comes across */
+}
+
+.box:nth-of-type(even) {
+  transform: translateX(-200%); 
+  /* this is a pseudo selector where we are selecting all the even numbers */
+  /* this helps us to alternate which side the content will come from */
+}
+.box.show {
+  transform: translateX(0); 
+  /* so this is when we add the show class in JS then the content */
+  /* will show up because it is in the right spot */
+}
+
+.box h2 {
+  font-size: 45px; 
+}
