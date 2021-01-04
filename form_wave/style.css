@@ -48,6 +48,7 @@ body {
 
 .btn:active {
   transform: scale(0.98); 
+  /*  makes the button slightly smaller */
 } 
 
 .text {
@@ -89,6 +90,8 @@ body {
   min-width: 5px; 
   transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   /* defines a curve and we can use a variable speed from start to end */
+  /*  cubic bezier defines a curve and we can use with a transition effed */
+  /* * p 0 being the begining and p3 being the end */ 
 }
 
 .form-control input:focus + label span, 
