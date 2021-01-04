@@ -1,9 +1,9 @@
 ### 50 Projects in 50 Days
 
 #### 1. Card Expansion
-![](card_expansion.gif)
+![](./gifs/card_expansion.gif)
 #### 2. Blurry Loading
-![](blurry_loading.gif)
+![](./gifs/blurry_loading.gif)
 #### 3. Hidden Search
 #### 4. Progress Steps
 #### 5. Rotating Navigation
@@ -13,5 +13,5 @@
 #### 9. Todo List
 #### 10. Sound Board
 #### 11. FAQ Collapse
-![](faq_collapse.gif)
+![](./gifs/faq_collapse.gif)
 #### 12. Event Key Codes 
