@@ -25,4 +25,4 @@
 #### 11. FAQ Collapse
 ![](./gifs/faq_collapse.gif)
 #### 12. Event Key Codes 
-![](./gifs/event_key_codes.gif)
+![](./gifs/key_codes.gif)
