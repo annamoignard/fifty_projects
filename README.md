@@ -26,3 +26,5 @@
 ![](./gifs/faq_collapse.gif)
 #### 12. Event Key Codes 
 ![](./gifs/key_codes.gif)
+#### 13. Random Image Generator
+![](./gifs/random_image.gif)
