@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; 
+  justify-content: center;
+}
+
+.title {
+  margin: 10px 0 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem; 
+  color: darkolivegreen; 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  /* by doing max width 1000 we will only get 3 images wide coz each image is only 300px, so 3 x 3 is 9 */
+}
+
+.container img {
+  object-fit: cover;
+  margin: 10px; 
+  height: 300px; 
+  width: 300px; 
+  max-width: 300%; 
+}
