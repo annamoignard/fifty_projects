@@ -28,3 +28,5 @@
 ![](./gifs/key_codes.gif)
 #### 13. Random Image Generator
 ![](./gifs/random_image.gif)
+#### 14. Toast Notifications
+![](./gifs/toast.gif)
