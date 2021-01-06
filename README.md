@@ -30,3 +30,5 @@
 ![](./gifs/random_image.gif)
 #### 14. Toast Notifications
 ![](./gifs/toast.gif)
+#### 14. Notes App
+![](./gifs/notes_app.gif)
